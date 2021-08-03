@@ -31,5 +31,7 @@ def crawl_sentence():
     # Close the Pandas Excel writer and output the Excel file.
     writer.save()
 
+    print(f'Crawled {len(content_list)} sentences!')
+
 
 crawl_sentence()
